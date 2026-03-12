@@ -13,7 +13,7 @@ class ProfilController extends Controller
         $prodi = "Sistem Informasi";
         $semester = 4;
 
-        $keahlian = ["HTML", "CSS", "JavaScript", "PHP", "Laravel"];
+        $keahlian = ["HTML", "CSS", "JavaScript", "PHP", "Laravel", "MySQL"];
 
         return view('profil', compact('nama', 'nim', 'prodi', 'semester', 'keahlian'));
     }
