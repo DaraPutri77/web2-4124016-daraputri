@@ -1,9 +1,6 @@
 <?php
-
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-
 class KatalogController extends Controller
 {
     private array $produk = [
@@ -14,14 +11,12 @@ class KatalogController extends Controller
         5 => ['id' => 5, 'nama' => 'Webcam',    'harga' => 250000],
     ];
 
-    // wajib: kirim array 5 produk ke view katalog/index.blade.php
     public function index()
     {
         $produk = $this->produk;
         return view('katalog.index', compact('produk'));
     }
 
-    // wajib: tampilkan detail 1 produk berdasarkan ID
     public function show($id)
     {
         $id = (int) $id;
