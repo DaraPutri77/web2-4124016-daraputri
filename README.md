@@ -13,3 +13,4 @@ Halaman Welcome Laravel
 
 Halaman /perkenalan
 <img width="1917" height="511" alt="Screenshot 2026-03-05 200422" src="https://github.com/user-attachments/assets/815afe6d-9461-4bde-aded-cf7c7f431ef3" />
+Kolaborator :Fahmi
