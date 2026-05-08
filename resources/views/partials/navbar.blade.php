@@ -7,7 +7,6 @@
         <div class="flex flex-wrap items-center gap-3 md:gap-6 text-sm md:text-base">
             <a href="{{ route('home.index') }}" class="hover:text-teal-300 transition">Home</a>
             <a href="{{ route('profil.index') }}" class="hover:text-teal-300 transition">Profil</a>
-            <a href="{{ route('katalog.index') }}" class="hover:text-teal-300 transition">Katalog</a>
             <a href="{{ route('produk.index') }}" class="hover:text-teal-300 transition">Produk</a>
             <a href="{{ route('tentang.index') }}" class="hover:text-teal-300 transition">Tentang</a>
             <a href="{{ route('produk.create') }}" class="bg-teal-500 hover:bg-teal-600 px-4 py-2 rounded-lg transition">
